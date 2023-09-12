@@ -1,0 +1,138 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Sample01",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-01",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/01-syntax-tree/bin/Debug/net7.0/Sample01.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/01-syntax-tree",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Sample02",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-02",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/02-ricerca-nodi/bin/Debug/net7.0/Sample02.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/02-ricerca-nodi",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Sample03",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-03",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/03-diagnostica/bin/Debug/net7.0/Sample03.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/03-diagnostica",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Sample04",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-04",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/04-modello-semantico/bin/Debug/net7.0/Sample04.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/04-modello-semantico",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Sample05",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-05",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/05-rimozione-using/bin/Debug/net7.0/Sample05.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/05-rimozione-using",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Sample06",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-06",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/06-aggiunta-invocazione/bin/Debug/net7.0/Sample06.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/06-aggiunta-invocazione",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Sample07",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-07",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/07-caricamento-progetto/bin/Debug/net7.0/Sample07.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/07-caricamento-progetto",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Sample08",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-08",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/08-document-editor/bin/Debug/net7.0/Sample08.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/08-document-editor",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

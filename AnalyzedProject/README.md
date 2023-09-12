@@ -1,0 +1,1 @@
+# Progetto sottoposto ad analisi con Roslyn
