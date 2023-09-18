@@ -1,8 +1,6 @@
 ﻿using Microsoft.Build.Locator;
 using Microsoft.CodeAnalysis;
-using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
-using Microsoft.CodeAnalysis.Editing;
 using Microsoft.CodeAnalysis.MSBuild;
 
 MSBuildLocator.RegisterDefaults();
@@ -12,7 +10,7 @@ Project project = await workspace.OpenProjectAsync(@"..\AnalyzedProject\Analyzed
 Document sampleClassDocument = project.Documents.Single(d => d.FilePath?.EndsWith("SampleClass.cs") == true);
 
 SyntaxNode? root = await sampleClassDocument.GetSyntaxRootAsync();
-List<MethodDeclarationSyntax> methods = root!.DescendantNodes().OfType<MethodDeclarationSyntax>().ToList();
+IList<MethodDeclarationSyntax> methods = root!.DescendantNodes().OfType<MethodDeclarationSyntax>().ToList();
 
 // #1 (non funziona perché rimuove il secondo metodo)
 foreach (var method in methods)
