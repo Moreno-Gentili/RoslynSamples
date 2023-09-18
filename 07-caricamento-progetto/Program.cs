@@ -6,8 +6,7 @@ using Microsoft.CodeAnalysis.MSBuild;
 
 MSBuildLocator.RegisterDefaults();
 MSBuildWorkspace workspace = MSBuildWorkspace.Create();
-// Project project = await workspace.OpenProjectAsync(@"..\AnalyzedProject\AnalyzedProject.csproj");
-Project project = await workspace.OpenProjectAsync(@"E:\GD\aHMI20\AFI\AFI.csproj");
+Project project = await workspace.OpenProjectAsync(@"..\AnalyzedProject\AnalyzedProject.csproj");
 
 foreach (Document document in project.Documents)
 {
